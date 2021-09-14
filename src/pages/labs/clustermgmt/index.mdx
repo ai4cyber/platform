@@ -4,7 +4,7 @@ description:
 ---
 
 <FeatureCard
-  title="Multicluster Management with IBM Cloud Pak for Pak_Name"
+  title="Multicluster Management with IBM Cloud Pak for Platform"
   color="dark"
   >
 
@@ -28,12 +28,12 @@ description:
 
 ## Lab Overview
 
-IBM Cloud Pak for Pak_Name provides consistent visibility, automation, and governance across a range of multicloud management capabilities such as cost and asset management, infrastructure management, application management, multi-cluster management, edge management, and integration with existing tools and processes. Customers can leverage Cloud Pak for Pak_Name to simplify their IT and application ops management, while increasing flexibility and cost savings with intelligent data analysis driven by predictive signals.
+IBM Cloud Pak for Platform provides consistent visibility, automation, and governance across a range of multicloud management capabilities such as cost and asset management, infrastructure management, application management, multi-cluster management, edge management, and integration with existing tools and processes. Customers can leverage Cloud Pak for Platform to simplify their IT and application ops management, while increasing flexibility and cost savings with intelligent data analysis driven by predictive signals.
 
-IBM Cloud Pak for Pak_Name can manage Kubernetes clusters that are deployed on any target infrastructure - either in your own data center or in a public cloud.
+IBM Cloud Pak for Platform can manage Kubernetes clusters that are deployed on any target infrastructure - either in your own data center or in a public cloud.
 
 In this tutorial, you will explore the following key capabilities:
--	`Understand Cloud Pak for Pak_Name`
+-	`Understand Cloud Pak for Platform`
 -	`Learn how to add a managed cluster`
 -	`Learn how to deploy an application chart from catalog`
 -	`Learn how to manage cluster objects spanning multiple clusters`
@@ -64,7 +64,7 @@ As different teams deploy more clusters, new challenges are introduced:
 -	Which clusters are compliant?
 -	How can I place workloads based on capacity, policy?
 
-Because of that, you want to explore how IBM Cloud Pak for Pak_Name, provides consistent visibility, governance and automation of your complex environment.
+Because of that, you want to explore how IBM Cloud Pak for Platform, provides consistent visibility, governance and automation of your complex environment.
 
 In this tutorial, you use two Red Hat OpenShift cluster (ROKS) clusters.
 -	Hub cluster includes management console, federated monitoring, and all the controllers. In this tutorial, you identify Hub cluster as hub-cluster. Here is the OpenShift cluster.
@@ -89,7 +89,7 @@ You will complete the following tasks:
 
 In this section, you will add two new managed clusters in your Control Panel. As explained before, you will add your OpenShift ROKS Hub cluster and your OpenShift ROKS Managed cluster.
 
-1.To start the lab, you should be in your Cloud Pak for Pak_Name Web Console. If you are not, check [here](../beforestart/) how to open your console page.
+1.To start the lab, you should be in your Cloud Pak for Platform Web Console. If you are not, check [here](../beforestart/) how to open your console page.
 
   ![](images/2-cluster-mgmt-img.png)
 
@@ -226,7 +226,7 @@ oc get pods -n multicluster-endpoint
 
   ![](images/21-cluster-mgmt-img.png)
 
-  Great, your both clusters are ready and managed by IBM Cloud Pak for Pak_Name. Using this Pak, you are able to manage both cluster from a single pane of glass. Let's check it in the next section.
+  Great, your both clusters are ready and managed by IBM Cloud Pak for Platform. Using this Pak, you are able to manage both cluster from a single pane of glass. Let's check it in the next section.
 
 ***
 
@@ -234,7 +234,7 @@ oc get pods -n multicluster-endpoint
 
 In this section, you visualize clusters in a tabular view and topology view in your environment with hotlinks to start to each cluster.
 
-1.With IBM Cloud Pak for Pak_Name you are able to manage all your cluster from a single control panel. Open the **Menu** button (1) and click **Observe environments** (2) > **Overview** (3).
+1.With IBM Cloud Pak for Platform you are able to manage all your cluster from a single control panel. Open the **Menu** button (1) and click **Observe environments** (2) > **Overview** (3).
 
   ![](images/22-cluster-mgmt-img.png)
 
@@ -388,7 +388,7 @@ oc get route | grep mysumapp
 
 You can use the management console to create, manage, view details, and troubleshoot application resources and Kubernetes objects in all clusters from a single interface. The management console search page supports searching for application resources by the component kind for each resource.
 
-1.Back to the IBM Cloud Pak for Pak_Name web page tab, click on the **Search** button.
+1.Back to the IBM Cloud Pak for Platform web page tab, click on the **Search** button.
 
   ![](images/46-cluster-mgmt-img.png)
 
@@ -404,18 +404,18 @@ You can use the management console to create, manage, view details, and troubles
 
   ![](images/49-cluster-mgmt-img.png)
 
-  Congratulations! You have successfully completed the lab “Multicluster Management with IBM Cloud Pak for Pak_Name”.
+  Congratulations! You have successfully completed the lab “Multicluster Management with IBM Cloud Pak for Platform”.
 
 ***
 
 ## Summary
 
-You completed the Cloud Pak for Pak_Name tutorial: Multi-cluster Management. Throughout the tutorial, you explored the key takeaways:
-- `Understand Cloud Pak for Pak_Name`;
+You completed the Cloud Pak for Platform tutorial: Multi-cluster Management. Throughout the tutorial, you explored the key takeaways:
+- `Understand Cloud Pak for Platform`;
 - `Add a managed cluster`;
 - `Deploy an application chart`;
 -	`Manage and monitor application resources of local and remote clusters`;
 
-If you would like to learn more about Cloud Pak for Pak_Name, please refer to:
--	<a href="https://www.ibm.com/cloud/cloud-pak-for-management" target="blank">Cloud Pak for Pak_Name home page</a>
-- <a href="https://www.ibm.com/demos/collection/Cloud-Pak-for-Multicloud-Management" target="blank">Cloud Pak for Pak_Name Demos </a>
+If you would like to learn more about Cloud Pak for Platform, please refer to:
+-	<a href="https://www.ibm.com/cloud/cloud-pak-for-management" target="blank">Cloud Pak for Platform home page</a>
+- <a href="https://www.ibm.com/demos/collection/Cloud-Pak-for-Multicloud-Management" target="blank">Cloud Pak for Platform Demos </a>

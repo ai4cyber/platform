@@ -11,7 +11,7 @@ Cookbook - Cookbook Template for IBM Cloud Paks
 
   ![](images/1-usingtemplate.png)
 
-2.Select the **ibmdemos-cloudpaks** as organization and enter the name of your pak following the standard: cloudpak-pak_name (e.g: cloudpak-automation, cloudpak-security, etc).
+2.Select the **ibmdemos-cloudpaks** as organization and enter the name of your pak following the standard: cloudpak-Platform (e.g: cloudpak-automation, cloudpak-security, etc).
 
   ![](images/2-usingtemplate.png)
 
@@ -39,11 +39,11 @@ Cookbook - Cookbook Template for IBM Cloud Paks
 
   ![](images/7-usingtemplate.png)
 
-9.Find in project all **Pak_Name** and replace all to  **Your_Pak** (e.g. Automation).
+9.Find in project all **Platform** and replace all to  **Your_Pak** (e.g. Automation).
 
   ![](images/8-usingtemplate.png)
 
-10.Repeat the same step, but now find all **cloudpak-template** and replace all to **cloudpak-yourpak** (e.g. cloudpak-automation).
+10.Repeat the same step, but now find all **platform** and replace all to **cloudpak-yourpak** (e.g. cloudpak-automation).
 
   ![](images/9-usingtemplate.png)
 
@@ -75,7 +75,7 @@ npm run deploy
 
 16.Great! Now to access your Cookbook git page open the url below, changing the name of your pak:
 ```
-https://github.ibm.com/ibmdemos-cloudpaks/cloudpak-PAK_NAME
+https://github.ibm.com/ibmdemos-cloudpaks/cloudpak-Platform
 ```
 
 

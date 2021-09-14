@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Cloud Pak for Template',
-    description: 'Cookbook for Cloud Pak for Pak_Name',
+    description: 'Cookbook for Cloud Pak for Platform',
     keywords: 'ibm,mcm,carbon',
   },
   plugins: ['gatsby-theme-carbon',
@@ -19,11 +19,11 @@ module.exports = {
     isSearchEnabled: true,
     repository: {
       baseUrl:
-        'https://github.ibm.com/ibmdemos-cloudpaks/cloudpak-template',
+        'https://www.github.com/ai4cyber/platform',
       subDirectory: '/',
     },
   },
 }
 ],
-pathPrefix: "/ibmdemos-cloudpaks/cloudpak-template",
+pathPrefix: "/ai4cyber/platform",
 };

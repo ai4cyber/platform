@@ -1,5 +1,5 @@
 ---
-title: Contributing to Cloud Pak for Pak_Name Cookbook
+title: Contributing to Cloud Pak for Platform Cookbook
 description: Guide for contributing content to the CP4MCM Bootcamp
 keywords: 'ibm,cam,install,cloud automation manager, cp4mcm'
 ---

@@ -5,11 +5,11 @@ import { calloutLink } from './Homepage.module.scss';
 
 import Carbon from '../../images/cloud-data.jpg';
 
-const FirstLeftText = () => <p>This Cookbook is designed to be a single point of access for all Demo Assets about IBM Cloud Pak for Pak_Name</p>;
+const FirstLeftText = () => <p>This Cookbook is designed to be a single point of access for all Demo Assets about IBM Cloud Pak for Platform</p>;
 
 const FirstRightText = () => (
   <p>
-    Are you aware that you can have a Cloud Pak for Pak_Name on ROKS only for you? Here you will see how to request your environment and explore other assets to support your sales opportunity
+    Are you aware that you can have a Cloud Pak for Platform on ROKS only for you? Here you will see how to request your environment and explore other assets to support your sales opportunity
   </p>
 );
 
@@ -27,7 +27,7 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>IBM Cloud Pak for Pak_Name</h1>;
+const BannerText = () => <h1>IBM Cloud Pak for Platform</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,
