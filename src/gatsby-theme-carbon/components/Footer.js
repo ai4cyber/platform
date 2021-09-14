@@ -14,21 +14,20 @@ const Content = () => (
               GitHub.
           </a>
       </p>
-      <p>      
+      <p>
           Built with{' '}
           <a href="https://github.com/carbon-design-system/gatsby-theme-carbon">
             Gatsby Theme Carbon
           </a>
           .
           <br />
-          Copyright © {currentYear} IBM
+          Copyright © {currentYear}
       </p>
   </>
 );
 
 const links = {
   firstCol: [
-    { href: 'https://ibm.com/', linkText: 'IBM' },
     { href: 'https://www.ibm.com/privacy/us/en/', linkText: 'Privacy' },
     { href: 'https://www.ibm.com/legal', linkText: 'Terms of Use' },
   ]
