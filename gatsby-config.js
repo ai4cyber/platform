@@ -25,5 +25,5 @@ module.exports = {
   },
 }
 ],
-pathPrefix: "/ai4cyber/platform",
+pathPrefix: "/platform",
 };
