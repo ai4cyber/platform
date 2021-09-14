@@ -3,7 +3,7 @@ import Header from 'gatsby-theme-carbon/src/components/Header';
 
 const CustomHeader = props => (
   <Header {...props}>
-    Cookbook -&nbsp;<span>Cloud Pak for Platform</span>
+    AI4Cyber Platform -&nbsp;<span>Healthcare Systems</span>
   </Header>
 );
 

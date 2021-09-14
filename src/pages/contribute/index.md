@@ -1,5 +1,5 @@
 ---
-title: Contributing to Cloud Pak for Platform Cookbook
+title: Contributing to Cloud Pak for AI4Cyber Cookbook
 description: Guide for contributing content to the CP4MCM Bootcamp
 keywords: 'ibm,cam,install,cloud automation manager, cp4mcm'
 ---
