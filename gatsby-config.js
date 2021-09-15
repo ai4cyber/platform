@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Cloud Pak for Template',
-    description: 'Cookbook for Cloud Pak for Platform',
-    keywords: 'ibm,mcm,carbon',
+    title: 'AI4Cyber Platform - Healthcare Systems',
+    description: 'AI4Cyber Platform - Healthcare Systems',
+    keywords: 'iu,kelley,mcm,carbon',
   },
   plugins: ['gatsby-theme-carbon',
   'gatsby-transformer-json',
