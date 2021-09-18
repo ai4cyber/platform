@@ -3,7 +3,7 @@
     - title: Background of Industry
       path: /industry/background/
     - title: Threat trends
-      path: /environment/requesting/
+      path: /industry/trends/
 - title: Threat Modelling
   pages:
     - title: Critical assets
