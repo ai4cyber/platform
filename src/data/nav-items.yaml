@@ -19,4 +19,6 @@
     - title: Team roles
       path: /about/roles/
 - title: References
-  path: /references/
+  pages:
+    - title: Reference
+      path: /references/
