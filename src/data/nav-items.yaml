@@ -18,3 +18,5 @@
       path: /about/members/
     - title: Team roles
       path: /about/roles/
+- title: References
+  path: /references/
