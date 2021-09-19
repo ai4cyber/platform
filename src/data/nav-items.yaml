@@ -7,11 +7,11 @@
 - title: Threat Modelling
   pages:
     - title: Critical assets
-      path: /labs/overview/
-    - title: Diamong models
-      path: /labs/installcli/
+      path: /threat/assets/
+    - title: Diamond models
+      path: /threat/diamonds/
     - title: Intelligence buy-in
-      path: /labs/introduction/
+      path: /threat/buyin/
 - title: About us
   pages:
     - title: Group members
