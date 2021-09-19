@@ -21,7 +21,7 @@ const SecondRightText = () => (
   </p>
 );
 
-const BannerText = () => <h1>AI4Cyber Platform - Healthcare Systems</h1>;
+const BannerText = () => <h1>AI4Cyber Platform - Hospitals based in the United States</h1>;
 
 const customProps = {
   Banner: <HomepageBanner renderText={BannerText} image={Carbon} />,

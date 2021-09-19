@@ -3,7 +3,7 @@ import Header from 'gatsby-theme-carbon/src/components/Header';
 
 const CustomHeader = props => (
   <Header {...props}>
-    AI4Cyber Platform -&nbsp;<span>Healthcare Systems</span>
+    AI4Cyber Platform -&nbsp;<span>Hospitals based in the United States</span>
   </Header>
 );
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'AI4Cyber Platform - Healthcare Systems',
-    description: 'AI4Cyber Platform - Healthcare Systems',
+    title: 'AI4Cyber Platform - Hospitals',
+    description: 'AI4Cyber Platform - Hospitals',
     keywords: 'iu,kelley,mcm,carbon',
   },
   plugins: ['gatsby-theme-carbon',
