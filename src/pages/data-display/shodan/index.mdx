@@ -39,27 +39,7 @@ Date: Extracted from Shodan on October 3rd, 2021
 
 ## Data
 
-<DataTable rows={rows} headers={headers}>
-  {({ rows, headers, getTableProps, getHeaderProps, getRowProps }) => (
-    <Table {...getTableProps()}>
-      <TableHead>
-        <TableRow>
-          {headers.map((header) => (
-            <TableHeader {...getHeaderProps({ header })}>
-              {header.header}
-            </TableHeader>
-          ))}
-        </TableRow>
-      </TableHead>
-      <TableBody>
-        {rows.map((row) => (
-          <TableRow {...getRowProps({ row })}>
-            {row.cells.map((cell) => (
-              <TableCell key={cell.id}>{cell.value}</TableCell>
-            ))}
-          </TableRow>
-        ))}
-      </TableBody>
-    </Table>
-  )}
-</DataTable>
+| asn | dataa | ip | ip_str | port | timestampp | hostnames | domains | area_code | city | country_code | country_code3 | country_name | dma_code | latitude |
+| --- | --- |
+| git status   | git status     | git status    | git diff     | git diff       | git diff      | git status   | git status     | git status    | git diff     | git diff       | git diff      | git status   | git status     | git status    |
+| git status   | git status     | git status    | git diff     | git diff       | git diff      | git status   | git status     | git status    | git diff     | git diff       | git diff      | git status   | git status     | git status    |
