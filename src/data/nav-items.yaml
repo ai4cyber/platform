@@ -18,6 +18,27 @@
       path: /about/members/
     - title: Team roles
       path: /about/roles/
+- title: Data Details
+  pages:
+    - title: Shodan
+      path: /data-details/shodan/
+    - title: Mitre CVE
+      path: /data-details/mitre-cve/
+    - title: G2
+      path: /data-details/g2/
+    - title: Greenlight Guru
+      path: /data-details/greenlight/
+- title: Data Display
+  pages:
+    - title: Shodan
+      path: /data-display/shodan/
+    - title: Mitre CVE
+      path: /data-display/mitre-cve/
+    - title: G2
+      path: /data-display/g2/
+    - title: Greenlight Guru
+      path: /data-display/greenlight/
+
 - title: References
   pages:
     - title: Reference
