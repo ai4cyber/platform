@@ -17,6 +17,7 @@
     "gatsby-theme-carbon": "^1.19.0",
     "gatsby-transformer-json": "^2.2.25",
     "lodash": "latest",
+    "node-sass": "^4.14.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
