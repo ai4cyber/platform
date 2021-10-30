@@ -38,7 +38,24 @@
       path: /data-display/g2/
     - title: Greenlight Guru
       path: /data-display/greenlight/
-
+- title: Analytical Approach
+  pages:
+    - title: Overview
+      path: /analytical/overview/
+    - title: Classification of Shodan
+      path: /analytical/shodan/
+    - title: Text Mining of CVE
+      path: /analytical/cve/
+    - title: Cluster Vulnerabiliy
+      path: /analytical/vulnerabiliy/
+    - title: Geospatial Analysis
+      path: /analytical/geospatial/
+- title: Visualization
+  pages:
+    - title: Geospatial Visualization
+      path: /visualization/geospatial/
+    - title: Word Cloud Visualization
+      path: /visualization/word-cloud/
 - title: References
   pages:
     - title: Reference
