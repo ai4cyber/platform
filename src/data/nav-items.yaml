@@ -45,15 +45,15 @@
     - title: Classification of Shodan
       path: /analytical/shodan/
     - title: Text Mining of CVE
-      path: /analytical/cve/
+      path: /analytical/cve2/
     - title: Cluster Vulnerabilities
       path: /analytical/criticality/
     - title: Geospatial Analysis
-      path: /analytical/geospatial/
+      path: /analytical/geo/
 - title: Visualization
   pages:
     - title: Geospatial Visualization
-      path: /visualization/geospatial/
+      path: /visualization/geospatial2/
     - title: Word Cloud Visualization
       path: /visualization/word-cloud/
 - title: References
