@@ -12,8 +12,6 @@ title: Approach 2 - Text Mining of Description in CVE List
 
 </FeatureCard>
 
-***
-
 Our team linked the G2 and the Greenlight Guru dataset (both datasets include information about hospital software and medical device manufactures) to the MITRE CVE dataset. This new dataset displays information security vulnerabilities and exposures only relevant to the hospital industry. We wanted to examine and analyze the relevancy/rareness (TF-IDF) of the key words identified in the “Description” column of this new dataset. Examples of the new CVE data that pertains specifically to the hospital industry can be seen in the picture below.
 
 ![](images/CVE1.png)
@@ -36,4 +34,4 @@ Steps taken:
 
 - The first column “Word” shows the word that has been identified in the analysis,
 - The second column “Relevance” is a score given to indicate how relevant/rare that word is. This is calculated by multiplying the term frequency (TF) by the inverse document frequency (IDF) score (this calculation is also known as weight). The higher the number is the more relevant it is.
-- The third column “Count” shows the frequency of each word in the text. 
+- The third column “Count” shows the frequency of each word in the text.

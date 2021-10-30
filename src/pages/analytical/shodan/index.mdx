@@ -12,7 +12,6 @@ title: Approach 1 - Classification of Shodan
 
 </FeatureCard>
 
-***
 
 Classification of devices from the top hospitals were obtained from Shodan, which we then classified by CPE code and product type.
 
@@ -39,8 +38,6 @@ Microsoft Internet Information Services (IIS) is a flexible, general-purpose web
 
 **Naive Bayes** is a classification algorithm that is suitable for binary and multiclass classification. It is a supervised classification technique used to classify future objects by assigning class labels to instances/records using conditional probability. It was determined that it would be important to classify the Shodan data by product/CPE. Since the data from product/CPE attributes contains labeled text data we have decided to use the Native Bayes algorithm. We would like to train an algorithm to properly classify this attribute.
 
-![](images/Shodan3.png)
-
 ***
 
 **Steps Taken for the Algorithm**:
@@ -50,6 +47,8 @@ Microsoft Internet Information Services (IIS) is a flexible, general-purpose web
 4. Naive Bayes algorithm is used for Classification of the data.
 5. 145 Records tested is 1/3 of the set (145/426)
 6. This algorithm correctly classified the product attribute on this test data **90.34%** of the instances. See the next slide for details of the error.
+
+![](images/Shodan3.png)
 
 ![](images/Shodan4.png)
 

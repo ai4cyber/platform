@@ -46,8 +46,8 @@
       path: /analytical/shodan/
     - title: Text Mining of CVE
       path: /analytical/cve/
-    - title: Cluster Vulnerabiliy
-      path: /analytical/vulnerabiliy/
+    - title: Cluster Vulnerabilities
+      path: /analytical/criticality/
     - title: Geospatial Analysis
       path: /analytical/geospatial/
 - title: Visualization
