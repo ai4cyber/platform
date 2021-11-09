@@ -56,6 +56,14 @@
       path: /visualization/geospatial2/
     - title: Word Cloud Visualization
       path: /visualization/word-cloud/
+- title: Intel Usage & Dissemination
+  pages:
+    - title: Key Insights & Intelligence
+      path: /intel-usage/key-insights/
+    - title: Operational Intelligence
+      path: /intel-usage/operational/
+    - title: Future Directions
+      path: /intel-usage/future/
 - title: References
   pages:
     - title: Reference
